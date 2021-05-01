@@ -4,7 +4,7 @@ const Order = () => {
     const [order, setOrder] = useState([]);
      const user = JSON.parse(localStorage.getItem('user'));
     useEffect(() => {
-         fetch('http://localhost:5000/orders'+ user.email, {
+         fetch('https://afternoon-falls-96049.herokuapp.com/orders?email='+ user.email, {
         //     method: 'GET',
         //     headers: {
         //         'Content-Type': 'application/json',

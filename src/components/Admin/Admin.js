@@ -11,7 +11,7 @@ const Admin = () => {
                     <AdminSidebar/>
                 </div>
                 <div className="col-md-8">
-                    <form action="http://localhost:5000/addProduct" method="post">
+                    <form action="https://afternoon-falls-96049.herokuapp.com/addProduct" method="post">
                         <input type="text" name="pname" id="pname" placeholder="product name" class="form-control"/>
                         <br/>
                         <input type="text" name="price" id="price" placeholder="price" class="form-control"/>

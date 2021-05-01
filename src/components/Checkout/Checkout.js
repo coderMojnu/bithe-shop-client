@@ -39,7 +39,7 @@ const Checkout = () => {
     };
     const handleOrder = () => {
         const newOrder = { name, email, pname, ...orderDate };
-         fetch('http://localhost:5000/order', {
+         fetch('https://afternoon-falls-96049.herokuapp.com/order', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newOrder)
