@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # bithe-shop
 
 * It's an online product delivery system
